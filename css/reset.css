@@ -1,0 +1,118 @@
+/* ============================= */
+/* <!-- general section --> */
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ============================= */
+/* <!-- body section --> */
+body {
+  font-family: sans-serif;
+  /* background-image: url(../tennis-balls-court-pyramid-vintage-net-background-48163688.jpg); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-color:rgb(92, 157, 87)
+}
+
+/* <!-- header section --> */
+header {
+  /* background-image: url(../tennis-balls-court-pyramid-vintage-net-background-48163688.jpg); */
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  /* to stick the header in the top */
+  position: sticky;
+  top: 0;
+  /* to put the index header in the front(top) */
+  z-index: 1;
+}
+.container{
+  margin: 1rem;
+  border: solid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+div{
+  border: red solid;
+  margin: 2px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+/* <!-- nav bar section --> */
+nav {
+  margin-left: 30%;
+  text-align: left;
+}
+
+nav li {
+  border-left: solid;
+  padding-left: 1rem;
+  display: inline-block;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a:visited,
+a:link {
+  text-decoration: none;
+  color:black;
+}
+
+/* <!-- main section --> */
+main {
+  text-align: center;
+  width: 70%;
+  /*min page size: */
+  min-height: 74vh;
+}
+
+/* <!-- link(a) section --> */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* <!-- footer section --> */
+footer {
+  display: flex;
+  flex-direction: column;
+  /* background-image: url(../tennis-balls-court-pyramid-vintage-net-background-48163688.jpg); */
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+form {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,20%);  
+}
