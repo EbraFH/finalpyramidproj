@@ -1,0 +1,15 @@
+.pycontainer {
+    max-width: 100%;
+}
+
+.pycontainer .row {
+    display: block;
+    text-align: center;
+}
+
+.pycontainer .block {
+    width: 15%;
+    border: red solid;
+    text-align: center;
+    display: inline-block;
+}
